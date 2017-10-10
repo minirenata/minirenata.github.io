@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Möbler</title>
+		<link href="css/normalize.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="body-shadow">
+			<header class="main-header">
+				<nav class="main-navigation">
+					<div class="menu-wrapper">
+						<ul class="site-navigation">
+							<li class="main-header-logo">
+								<a>
+									<img src="img/logo.svg" width="200" height="47" alt="Möbler logo">
+								</a>
+							</li>
+							<li class="navigation-link">
+								<a href="about.html">О компании</a>
+							</li>
+							<li class="navigation-link">
+								<a href="collections.html">Коллекции</a>
+							</li>
+							<li class="navigation-link">
+								<a href="blog.html">Блог</a>
+							</li>
+							<li class="navigation-link">
+								<a href="contacts.html">Контакты</a>
+							</li>
+						</ul>
+						<ul class="lang-select">
+							<li>
+								<a href="#">Ru</a>
+								<ul class="lang-select-submenu">
+									<li>
+										<a href="index.html#en">En</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</header>
+			<main class="container">
+				<div class="index intro">
+					<h1 class="intro-headline index-page">Swedish.<br>Practical.<br>Good</h1>
+					<button class="button-modal" type="button">
+						<span class="visually-hidden">Позвоните мне</span>
+					</button>
+				</div>
+				<section class="main-content">
+					<h2 class="visually-hidden">Our features</h2>
+					<div class="features">
+						<div class="main-headline-wrapper">
+							<h3 class="main-headline">Swedish</h3>
+						</div>
+						<p class="main-text">Компания <span>möbler</span> производит мебель в России  по высочайшим шведским стандартам качества.  Минималистичный скандинавский дизайн,  сдержанная цветовая гамма и натуральные  материалы — три главных достоинства наших  стульев, которые удачно впишутся в любой  интерьер.</p>
+						<img src="img/image1.jpg" width="506" height="758" alt="Chair Allure Collection">
+					</div>
+					<div class="features right">
+						<div class="main-headline-wrapper">
+							<h3 class="main-headline">Practical</h3>
+						</div>
+						<p class="main-text">Мебель от <span>möbler</span> изготовлена из материалов  высочайшего качества. Вся поставляемая  на фабрики древесина проходит несколько  этапов отбора, а обивочные материалы  и фурнитура от европейских поставщиков  отличаются высокой износостойкостью  и долговечностью.</p>
+						<img src="img/image2.jpg" width="506" height="758" alt="Chair A-label Collection">
+					</div>
+					<div class="features">
+						<div class="main-headline-wrapper">
+							<h3 class="main-headline">Good</h3>
+						</div>
+						<p class="main-text">На всю продукцию <span>möbler</span> распространяется  гарантия 20 лет. Вы можете несколько раз  поменять интерьер — мебель от <span>möbler</span> останется  в таком же состоянии, как если бы вы ее только  что купили. Качественно, экономично, безвредно  для вас и окружающей среды — вот три принципа,  на которых мы основываемся в нашей работе.</p>
+						<img src="img/image3.jpg" width="506" height="758" alt="Chair Trombone Collection">
+					</div>
+				</section>
+				<section class="feedback">
+					<h2 class="feedback-headline">Оставьте заявку</h2>
+					<p class="feedback-subline">и наш менеджер поможет вам подобрать мебель вашей мечты</p>
+					<form class="feedback-form" action="#" method="post">
+						<p>
+							<input type="text" name="name" value="" placeholder="Как вас зовут?" id="name-field" required>
+							<label class="visually-hidden" for="name-field">Ваше имя</label>
+						</p>
+						<p>
+							<input type="text" name="contacts" value="" placeholder="Оставьте свой e-mail или номер телефона" id="contacts-field" required>
+							<label class="visually-hidden" for="contacts-field">Ваш телефон или e-mail</label>
+						</p>
+						<p>
+							<button class="button feedback-button" type="submit">Отправить</button>
+						</p>
+					</form>
+				</section>
+			</main>
+			<footer class="main-footer">
+				<div class="footer-wrapper">
+					<ul class="sub-navigation">
+						<li class="footer-logo">
+							<a>
+								<img src="img/logo.svg" width="200" height="47" alt="Möbler logo">
+							</a>
+						</li>
+						<li class="footer-link">
+							<a href="about.html">О компании</a>
+						</li>
+						<li class="footer-link">
+							<a href="collections.html">Коллекции</a>
+						</li>
+						<li class="footer-link">
+							<a href="blog.html">Блог</a>
+						</li>
+						<li class="footer-link">
+							<a href="contacts.html">Контакты</a>
+						</li>
+					</ul>
+					<div class="copyright">
+						<p>Designed by <br>
+						<a class="copyright-link" href="https://vk.com/minirenata">Natalia Alexanderikova</a><br>
+						 2017</p>
+					</div>
+				</div>
+			</footer>
+			<section class="modal-frame">
+				<h2 class="modal-headline">Оставьте заявку</h2>
+				<p class="modal-text">и наш менеджер перезвонит вам в течение 15 минут</p>
+				<form class="callback-form" action="#" method="post">
+					<p>
+						<input type="text" name="callback-name" value="" placeholder="Как вас зовут?" id="name-modal">
+						<label class="visually-hidden" for="name-modal">Ваше имя</label>
+					</p>
+					<p>
+						<input type="tel" name="tel" value="" placeholder="Введите номер в формате +7-ХХХ-ХХХ-ХХХХ" id="tel-modal">
+						<label class="visually-hidden" for="tel-modal">Ваш номер телефона</label>
+					</p>
+					<p>
+						<button class="button callback-button" type="submit">Отправить</button>
+					</p>
+					<p>
+						<button class="close-button" type="button">Закрыть</button>
+					</p>
+				</form>
+			</section>
+		</div>
+	<script src="js/popup.js"></script>
+	</body>
+</html>
